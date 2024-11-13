@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xB4BAFFE3F747EF83",
+      "boundary_crc": "0xC3B1A32754BEEB1",
       "design_src": "SBD",
       "device": "xc7a100tcsg324-1",
       "name": "bd_9bbd",
@@ -85,13 +85,13 @@
             "value": "0"
           },
           "C_PROBE0_WIDTH": {
-            "value": "128"
+            "value": "512"
           },
           "C_PROBE1_TYPE": {
             "value": "0"
           },
           "C_PROBE1_WIDTH": {
-            "value": "16"
+            "value": "64"
           },
           "C_PROBE2_TYPE": {
             "value": "0"
@@ -115,13 +115,13 @@
             "value": "0"
           },
           "C_PROBE5_WIDTH": {
-            "value": "128"
+            "value": "512"
           },
           "C_PROBE6_TYPE": {
             "value": "0"
           },
           "C_PROBE6_WIDTH": {
-            "value": "16"
+            "value": "64"
           },
           "C_PROBE7_TYPE": {
             "value": "0"
@@ -171,7 +171,7 @@
             "value": "0"
           },
           "C_SLOT_0_AXIS_TDATA_WIDTH": {
-            "value": "128"
+            "value": "512"
           },
           "C_SLOT_0_AXIS_TDEST_WIDTH": {
             "value": "0"
@@ -198,7 +198,7 @@
             "value": "FT"
           },
           "C_SLOT_1_AXIS_TDATA_WIDTH": {
-            "value": "128"
+            "value": "512"
           },
           "C_SLOT_1_AXIS_TDEST_WIDTH": {
             "value": "0"
