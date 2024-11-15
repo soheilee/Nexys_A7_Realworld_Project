@@ -1,4 +1,4 @@
-module shin #(
+module meta_data_doubler #(
     parameter DW=512
 )
 (
@@ -13,13 +13,11 @@ module shin #(
     output  reg   [DW-1:0]     AXIS_OUT_MD1_TDATA,
     output  reg                AXIS_OUT_MD1_TVALID,
     input                      AXIS_OUT_MD1_TREADY,
-    output reg                 AXIS_OUT_MD1_TLAST,
 
     // The output MD axi stream #2
     output  reg   [DW-1:0]     AXIS_OUT_MD2_TDATA,
     output  reg                AXIS_OUT_MD2_TVALID,
-    input                      AXIS_OUT_MD2_TREADY,
-    output reg                 AXIS_OUT_MD2_TLAST
+    input                      AXIS_OUT_MD2_TREADY
 
 );
 
